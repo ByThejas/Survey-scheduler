@@ -1,0 +1,11 @@
+{
+  "name": "survey-management-poc",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Proof of concept: role-based substation survey module (CMS) with a separate public portal. No dependencies.",
+  "engines": { "node": ">=22.13" },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server.js",
+    "test": "node --disable-warning=ExperimentalWarning --test test/poc.test.js"
+  }
+}
